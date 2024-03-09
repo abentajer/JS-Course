@@ -4,18 +4,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JavaScript</title>
+  <style>
+    li{
+      list-style-type: none;
+      max-width: 200px;
+      padding: 8px;
+      margin: 8px auto;
+      background: #eee;
+      border: 1px dotted #ddd
+    }
+
+    .success{
+      padding: 10px;
+      color: limegreen;
+      border: 1px dotted limegreen;
+    }
+  </style>
 </head>
 <body>
-  <h1>The DOM</h1>
-
-  <div>
-    <p>hello, world</p>
-    <p>lorem ipsum</p>
-    <p class="error">this is an error message</p>
-  </div>
-
-  <div class="error">this is another eror message</div>
-
+  <h1>To Do</h1>
+  <ul>
+    <li>Swimming pool</li>
+    <li>make the exercices</li>
+    <li>Read a book</li>
+    <li>Sleep :)</li>
+  </ul>
+  <button>Add new Task</button>
   <script src="sandbox.js"></script>
 </body>
 </html>
